@@ -29,7 +29,7 @@ Each step produces JSON/markdown artifacts under `.reposage/artifacts/` or `repo
 
 ---
 
-## Learned Retrieval – _Why it Matters_
+## Learned Retrieval
 The baseline heuristic ranks files by simple signals such as stack-trace presence and lexical TF-IDF similarity.  The **learned ranker** fine-tunes a lightweight MLP on synthetic bugs generated from a clean baseline.  By combining the heuristic score with the model’s relevance probability we achieve higher Hit@K and MRR, meaning the buggy file is surfaced earlier, giving the LLM better context and improving patch quality.
 
 ---
